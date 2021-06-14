@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySelectedItem">
+
+    <EditText
+        android:id="@+id/seId"
+        android:text="id"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:id="@+id/seName"
+        android:text="Name"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <RadioGroup
+        android:id="@+id/grb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/seRb1"
+            android:text="Male"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+        <RadioButton
+            android:id="@+id/seRb2"
+            android:text="Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/seMark"
+        android:text="Mark"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:id="@+id/seBtUpdate"
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:backgroundTint="#43A047"
+        android:id="@+id/seBtDel"
+        android:text="Delete"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+    <Button
+        android:backgroundTint="#ccc"
+        android:id="@+id/seBtCancel"
+        android:text="Cancel"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+</LinearLayout>
